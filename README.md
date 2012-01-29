@@ -15,5 +15,5 @@ In the Advanced options in the extension tab "Backquotes" and "Semicolons" shoul
 
 ## Examples for the command line:
 * perl dayone_alfred.pl ! [2011-02-15] An entry in Day One
-* perl dayone_alfred.pl [last Friday ατ 20.00] Something I did last Friday at 20.00 pm
+* perl dayone_alfred.pl [last Friday at 20.00] Something I did last Friday at 20.00 pm
 * perl dayone_alfred.pl Another thing I did 3 days ago -d last Friday at 8pm
