@@ -1,14 +1,14 @@
 # Perl Script for Day One
 
 ## Info
-This Perl script was programmed in order to be used within Alfred (http://www.alfredapp.com) as an extension. It is based on a ruby implementation by Brett Terpstra (http://brettterpstra.com)
+This Perl script was programmed in order to be used as an extension within Alfred (http://www.alfredapp.com). It is based on a ruby implementation by Brett Terpstra (http://brettterpstra.com)
 
-This script uses the CLI of Day One (http://dayoneapp.com/) and parses an input string starting with (optional) exclamation mark for starred entries and a date string in square brackets []. The date could alternatively be entered at the end of the string after the -d identifier.
+The script uses the CLI of Day One (http://dayoneapp.com/) and parses an input string starting with an (optional) exclamation mark for starred entries and a date string in square brackets []. The date could alternatively be entered at the end of the string after the -d identifier.
 
 ## Required Module for date processing
 Date::Manip (http://search.cpan.org/perldoc?Date::Manip)
 
-## Alfred Extension
+## Alfred Extension Command
 The Day One Alfred extension is a shell script extension with the following command:
 perl ~/path/to/perl/file/dayone_alfred.pl {query}
 In the Advanced options in the extension tab "Backquotes" and "Semicolons" should be set to be escaped.
