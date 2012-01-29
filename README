@@ -8,7 +8,12 @@ This script uses the CLI of Day One (http://dayoneapp.com/) and parses an input 
 ## Required Module for date processing
 Date::Manip (http://search.cpan.org/perldoc?Date::Manip)
 
-## Examples:
+## Alfred Extension
+The Day One Alfred extension is a shell script extension with the following command:
+perl ~/path/to/perl/file/dayone_alfred.pl {query}
+In the Advanced options in the extension tab "Backquotes" and "Semicolons" should be set to be escaped.
+
+## Examples in the command line:
 * perl dayone_alfred.pl ! [2011-02-15] An entry in Day One
 * perl dayone_alfred.pl [last Friday ατ 20.00] Something I did last Friday at 20.00 pm
 * perl dayone_alfred.pl Another thing I did 3 days ago -d last Friday at 8pm
